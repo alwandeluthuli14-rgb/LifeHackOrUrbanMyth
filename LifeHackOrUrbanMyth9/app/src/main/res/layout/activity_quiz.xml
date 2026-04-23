@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Hack or Urban Myth?"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test if popular life hacks are real or fake!"
+        android:paddingTop="16dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp">
+
+<TextView
+    android:id="@+id/questionNumberText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Question 1"/>
+
+<TextView
+    android:id="@+id/questionText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:paddingTop="20dp"/>
+
+<Button
+    android:id="@+id/hackButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hack"
+    android:layout_marginTop="20dp"/>
+
+<Button
+    android:id="@+id/mythButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Myth"
+    android:layout_marginTop="10dp"/>
+
+<TextView
+    android:id="@+id/feedbackText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:paddingTop="20dp"/>
+
+<Button
+    android:id="@+id/nextButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Next"
+    android:layout_marginTop="20dp"/>
+</LinearLayout>
